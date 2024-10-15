@@ -1,3 +1,4 @@
+
 /* Global settings */
 * {
     margin: 0;
@@ -45,14 +46,52 @@ p {
     color: #ccc;
 }
 
-
-
 /* Footer styles */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #1a1a1a;
     border-top: 1px solid #333;
+}
+
+/* Container for sidebar and main content */
+.container {
+    display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar p {
+    margin: 0;
 }
 
 footer p {
